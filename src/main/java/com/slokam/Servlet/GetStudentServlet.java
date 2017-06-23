@@ -13,6 +13,6 @@ public class GetStudentServlet extends GenericServlet
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException 
 	{
 		String id=req.getParameter("id");
-		
+		System.out.println(id);
 	}
 }
