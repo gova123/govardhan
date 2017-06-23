@@ -139,11 +139,10 @@ public class StudentDAO {
 			ps.setInt(5, s.getId());
 			ps.executeUpdate();
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 
 	}
