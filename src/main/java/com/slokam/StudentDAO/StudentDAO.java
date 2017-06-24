@@ -187,7 +187,6 @@ public class StudentDAO {
 				System.out.println(rs.getString("Username"));
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
